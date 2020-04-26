@@ -6,7 +6,7 @@ export default class Page extends React.Component {
   render() {
     return (
       <div>
-        {/* <Meta /> */}
+        <Meta />
         <Header />
         {this.props.children}
       </div>
